@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Fox Placard Maker</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <form id="gatherInfo">
+        <h2>Enter information and press submit</h2>
+        <input type="text" id="companyName" placeholder="Name">
+        <input type="text" id="street" placeholder="Street">
+        <div id="cityZip">
+            <input type="text" id="city" placeholder="City">
+            <input type="text" id="state" placeholder="State">
+            <input type="text" id="zipCode" placeholder="Zipcode">
+        </div>
+        <input type="text" id="palletNumber" placeholder="pallet number">
+        <div id="dimensions">
+            <input type="text" id="weight" placeholder="weight">
+            <input type="text" id="length" placeholder="length">
+            <input type="text" id="width" placeholder="width">
+            <input type="text" id="height" placeholder="height">
+        </div>
+        <input type="text" id="tripId" placeholder="Trip Id">
+        <input type="button" id="submit" value="submit">
+        <input type="button" id="clear" value="clear">
+    </form>
+    <div id="placardContainer">
+        <div class="containerBox">
+            <div id="address">
+                <h3 id="shipTo"></h3>
+                <h3 id="shipStreet"></h3>
+                <div id="citToZip">
+                    <h3 id="shipCity"></h3>
+                    <h3 id="shipState"></h3>
+                    <h3 id="shipZip"></h3>
+                </div>
+            </div>
+        </div>
+        <div class="containerBox">
+            <h3 id="shipPNumber"></h3>
+            <h3 id="shipWeight"></h3>
+            <h3 id="shipDimensions"></h3>
+        </div>
+        <div class="containerBox">
+            <h3 id="shipTrip"></h3>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+.containerBox {
+    margin-bottom: 40px;
+    border-style: 1px solid black;
+}
+
+#address {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#gatherInfo {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    max-width: 555px;
+}
+
+#cityZip {
+    display: flex;
+}
+
+#citToZip {
+    display: flex;
+}
+
+#placardContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    z-index: 2;
+    justify-content: space-between;
+}
+
+#shipTo {
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#shipStreet {
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#shipCity {
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#shipZip {
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
